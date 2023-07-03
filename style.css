@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Source-regular;
+    src: local(fonts) url(fonts/SourceSerifPro-Regular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Source-bold;
+    src: local(fonts) url(fonts/SourceSerifPro-Bold.otf);
+    font-weight: 700;
+}
+
+:root {
+    --bg-color: #FEECE0;
+    --bg-color-2: #9B6647;
+    --title-color: #58190A;
+    --select-color: #9B6647;
+    --sub-title-color: #FEECE0;
+    --text-color: #FFFFFF;
+}
+
