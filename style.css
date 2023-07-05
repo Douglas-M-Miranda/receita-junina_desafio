@@ -13,8 +13,108 @@
 :root {
     --bg-color: #FEECE0;
     --bg-color-2: #9B6647;
+    --bg-color-3: #eeddc0ac;
     --title-color: #58190A;
     --select-color: #9B6647;
     --sub-title-color: #FEECE0;
     --text-color: #FFFFFF;
+    --text-color-2: #58190A;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    background-color: var(--bg-color-3);
+}
+
+/*Container geral*/
+
+#container {
+    width: 144rem;
+    height: 90rem;
+    margin: 4.5% auto 0 auto
+}
+
+/*Container de cima */
+
+.container-title {
+    display: flex;
+    background-color: var(--bg-color);
+   
+}
+
+.title-img > img {
+    width: 409px;
+    height: 293px;
+    margin: 11.2rem 5.6rem 5.6rem 15.5rem;
+}
+
+.title-text > h1 {
+    font-family: Source-bold;
+    font-weight: 700;
+    color: var(--title-color);
+    font-size: 7.2rem;
+    margin: 15rem 0 0.7rem;
+}
+
+.title-text > p {
+    font-family: Source-regular;
+    font-weight: 400;
+    color: var(--text-color-2);
+    font-size: 3.8rem;
+    margin-bottom: 1.1rem;
+}
+
+.contador > .contador-text {
+    font-family: Source-regular;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: var(--select-color);    
+}
+
+/*container de baixo */
+
+.container-receita {
+    background: var(--bg-color-2);
+    display: flex;
+}
+
+.icon {
+    width: 35.7px;
+    height: 32px;
+    margin-left: -2.4rem;
+}
+
+.ingredientes-list {
+    margin: 0 20rem 8.9rem 14rem
+}
+
+.ingredientes-title, .instrucao-title {
+    display: flex;
+    margin-top: 5.0rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-family: Source-bold;
+    font-weight: 700;
+    color: var(--sub-title-color);
+    font-size: 2.8rem;   
+}
+
+.ingredients-item, .instrucao-item {
+    font-family: Source-regular;
+    font-weight: 400;
+    color: var(--text-color);
+    font-size: 2.2rem;
+}
+
